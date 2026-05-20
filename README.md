@@ -1,5 +1,7 @@
 # GitHub Bounty Scout
 
+[![CI](https://github.com/codeaustral-oss/github-bounty-scout/actions/workflows/ci.yml/badge.svg)](https://github.com/codeaustral-oss/github-bounty-scout/actions/workflows/ci.yml)
+
 A small CLI for reviewing GitHub issue URLs before starting open-source bounty work.
 
 It looks at basic public signals: issue state, assignees, labels, comment count, recent activity, and related pull requests. The score is not a guarantee; it is a fast way to decide whether a task deserves deeper review.
